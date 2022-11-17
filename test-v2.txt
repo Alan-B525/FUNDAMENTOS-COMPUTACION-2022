@@ -1,0 +1,57 @@
+definir hola_mundo como dato .1. dato ll .2. hace
+	hola 
+	retorna hola ...
+hecho
+
+definir holaNo como void .1. dato lr .2. hace
+	No
+hecho
+
+definir adios_mundo como dato .1.  .2. hace
+	adios 
+	retorna adios ...
+hecho
+
+definir papu como void .1. dato a ; dato b; dato c.2. hace
+	mamu
+hecho
+
+definir holaSi como void .1. .2. hace
+	Si 
+hecho
+
+llamar hola_mundo variable ...
+
+llamar esta_debe_fallar lol ...
+
+llamar holaNo 1111 ...
+
+llamar esta_debe_fallar2 .1. 33 ; arg .2. ...
+
+llamar hola_mundo .1. 123 ; 444 ; parametro .2. ...
+
+llamar aun_no_definida 323 ...
+
+definir aun_no_definida como void .1. dato nope .2. hace
+	nada
+hecho
+  
+llamar papu .1. asd; 123  .2. ...
+ 
+llamar papu .1. asd; 123; 0000  .2. ...
+  
+llamar papu .1. asd; 123; 123123 ; 1234 .2. ...
+
+definir papu como void .1. dato eee .2. hace lol hecho
+
+llamar holaSi  ...
+
+llamar holaSi 111 ...
+
+definir total como void .1. dato asd .2. hace asd hecho
+
+llamar total 123 ...
+
+llamar hola_mundo ...
+
+llamar aun_no_definida .1. eeee .2. ...
