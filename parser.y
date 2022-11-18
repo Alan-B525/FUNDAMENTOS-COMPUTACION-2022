@@ -17,7 +17,6 @@
 %type <funcion_archivo_fclose> FUNCION_ARCHIVO_FCLOSE
 %type <nombre_variable> NOMBRE_VARIABLE
 
-/*terminales y no terminales*/
 %union{
     char *tipo_dato_archivo;
     char *funcion_archivo_fopen;
