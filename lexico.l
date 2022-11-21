@@ -1,17 +1,13 @@
 %{
-	/*Definition section */
     #include<stdlib.h>
     #include "parser.tab.h" 
 	void showError();
 %}
 
-/* Rule: 
-*/
 nombre_variable ([a-zA-Z0-9])+
 
 %%
 "FILE"      {yylval.tipo_dato_archivo = yytext; return (TIPO_DATO_ARCHIVO);}
-
 "fopen"      {yylval.funcion_archivo_fopen = yytext; return (FUNCION_ARCHIVO_FOPEN);}
 "fscanf"    {yylval.funcion_archivo_fscanf = yytext; return (FUNCION_ARCHIVO_FSCANF);}
 "fprintf"    {yylval.funcion_archivo_fprintf = yytext; return (FUNCION_ARCHIVO_FPRINTF);}
