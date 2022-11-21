@@ -3,3 +3,7 @@ FILE *fp9;
 fopen();
 
     fclose();
+
+fprintf();
+fprintf();
+fscanf();
